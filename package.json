@@ -13,6 +13,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "@tinymce/tinymce-react": "^6.2.1",
     "appwrite": "^18.1.1",
+    "lodash": "^4.17.21",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.3",

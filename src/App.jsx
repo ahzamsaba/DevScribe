@@ -6,6 +6,7 @@ import Login from './pages/Login'
 import ProtectedRoute from './components/ProtectedRoute'
 import Header from './components/Header'
 import PostDetail from './pages/PostDetail'
+import EditPost from './pages/EditPost'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/signup' element={ <Signup/> } />
           <Route path='/login' element={ <Login/> } />
           <Route path='/post/:id' element={<PostDetail/>} />
+          <Route path='/edit/:id' element={ <ProtectedRoute> <EditPost/> </ProtectedRoute> } />
         </Routes>
       </div>
     </Router>
